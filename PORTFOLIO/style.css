@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.nav{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    position: fixed;
+}
+#a0{
+    margin-left: 0px;
+}
+#a1{
+    margin-left: 20px;
+}
+#a1,#a0{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+#h11{
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all 3s;
+}
+.main{
+    z-index: -1;
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-color: black;
+}
+.header{
+    margin: -21px;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+#h1a,#h4a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 0.8;
+}
+#h1a{
+    font-weight: 700;
+}
+#h4a{
+    font-weight: 100;
+}
+.icon{
+    margin-left: 42%;
+    color: white;
+    font-size: 35px;
+    position: sticky;
+}
+#h1b{
+    margin: 2%;
+}
+.profile{
+    margin-left: 2%;
+    width: 95%;
+    height: 300px;
+    background-image: url(./IMAGES/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 200px;
+    position: relative;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#p1a{
+    margin-left: 25%;
+    background-color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.container1,.container2, .container3,.container4,.container5,.container6{
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 8%;
+    width: 80%;
+    height: 400px;
+    background-color: white ;
+    position: relative;
+    border: gray 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px gray;
+}
+
+.block1,.block2,.block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1,#i1{
+    width: 40%;
+    margin-left: 0%;
+    background-color: gray;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+.box2,#i2,.box3,#i3{
+    width: 40%;
+    margin-left: 10%;
+    align-items: center;
+    background-color: gray;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+#ha{
+    margin-left: 10%;
+}
+.boxes1,#i1{
+    width: 50%;
+    height: 200px;
+    margin-left: 10%;
+    background-color: gray;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+.boxes2,#i2,.boxes3,#i3{
+    width: 50%;
+    height: 200px;
+    margin-left: 5%;
+    background-color: gray;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+.boxes3{
+    margin-right: 10%;
+}
+.pro1,.pro2,.pro3{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 30%;
+    height: 200px;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#image{
+    width: 100%;
+}
+.pro1{
+    background-image: url(./IMAGES/frozen.JPG);
+}
+.pro2{
+    background-image: url(./IMAGES/YouTube.JPG)
+}
+.pro3{
+    background-image: url(./IMAGES/netflixx.JPG)
+}
+#h2a{
+    text-align: center;
+}
+li{
+    font-weight: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.text{
+    font-size: 36px;
+    font-weight: bold; position: relative;
+    display: inline-block;
+}
+.text span {
+    display: inline-block;
+    animation: waveAnimation 0.4s infinite alternate;
+}   
+.text span.space {
+    visibility: hidden;
+    width: 0.4em;
+}
+#form1{
+    width: 50%;
+    height: 250px;
+    margin: 50px 200px 100px 320px;
+    background-color: gray;
+    border: solid 1px black;
+    border-radius: 30px;
+    position: relative;
+}
+#in1{
+    height: 30px;
+}
+#in1,#txt{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 150px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+#txt{
+    height: 80px;
+}
+#btn1,#btn2{
+    width: 15%;
+    height: 25px;
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn1{
+    margin-left: 200px;
+}
+#btn2{
+    margin-left: 20px;
+}
+#in1::placeholder,#txt::placeholder,#btn{
+    color: black;
+}
+#z{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
